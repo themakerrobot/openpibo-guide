@@ -32,7 +32,7 @@ jobs:
     outputs:
       changed: ${{ steps.latest.outputs.changed }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - id: latest
         run: >-
           python3 tools/docs/latest_tag.py
@@ -45,14 +45,15 @@ jobs:
     if: github.event_name != 'schedule' || needs.check.outputs.changed == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - run: python3 tools/docs/build_site.py --out _site
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
+          include-hidden-files: true  # v4 부터 점 파일(.nojekyll 등)을 기본으로 뺀다 — 예전(v3)과 같은 내용으로 올린다
 
   deploy:
     needs: build
@@ -62,4 +63,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
