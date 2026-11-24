@@ -33,7 +33,7 @@
     },
     {
       "id": "pibrain",
-      "name": "PiBrain",
+      "name": "piBrain",
       "repo": "https://github.com/themakerrobot/openpibo-os.pibrain",
       "versions": [
         {
