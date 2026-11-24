@@ -11,7 +11,7 @@ openpibo-os.<기기> 태그 안에 커밋된 Sphinx 빌드 결과(docs/build/htm
   <out>/_nav/latest.json                기기별 마지막 태그·커밋 (tools/docs/latest_tag.py 가 다음 배포 여부 판단에 씀)
 
 문서 원본은 각 OS 저장소 태그가 기준이다. 버전에 "repo" 가 있으면 그 저장소의 태그를 쓴다
-(예: Pibo 구버전 v0.9.2.73 은 openpibo-python).
+(예: piBo 구버전 v0.9.2.73 은 openpibo-python).
 "track": "latest-tag" 버전은 OS 저장소의 마지막 태그(YYMMDDvN, 접미사 태그 제외)로 정해진다.
 디자인은 OS 웹 화면(v2)과 같은 Pibo UI Kit 을 쓴다.
 이 스크립트는 복사와 버전 바 삽입만 한다.

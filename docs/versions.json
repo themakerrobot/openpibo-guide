@@ -13,7 +13,7 @@
   "devices": [
     {
       "id": "pibo",
-      "name": "Pibo",
+      "name": "piBo",
       "repo": "https://github.com/themakerrobot/openpibo-os.pibo",
       "versions": [
         {
@@ -33,7 +33,7 @@
     },
     {
       "id": "pibrain",
-      "name": "piBrain",
+      "name": "PiBrain",
       "repo": "https://github.com/themakerrobot/openpibo-os.pibrain",
       "versions": [
         {

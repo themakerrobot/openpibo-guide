@@ -1,4 +1,4 @@
-# Pibo — 260624v1
+# piBo — 260624v1
 
 - 문서: <https://themakerrobot.github.io/openpibo-guide/pibo/260624v1/index.html>
 - 이전 버전 예제를 옮겨 쓸 때 바뀐 점: [MIGRATION.md](MIGRATION.md)

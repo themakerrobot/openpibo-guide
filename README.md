@@ -1,6 +1,6 @@
 # openpibo-guide
 
-Pibo / piBrain 예제와 버전별 문서입니다.
+piBo / PiBrain 예제와 버전별 문서입니다.
 
 - **문서**: <https://themakerrobot.github.io/openpibo-guide/>
 - **예제**: 이 저장소의 `기기/OS 버전/` 폴더
@@ -9,8 +9,8 @@ Pibo / piBrain 예제와 버전별 문서입니다.
 
 | 기기 | OS 버전 | 예제 | 문서 |
 |---|---|---|---|
-| Pibo | `260624v1` | [python · block · project · 교안](pibo/260624v1/README.md) | [문서](https://themakerrobot.github.io/openpibo-guide/pibo/260624v1/index.html) |
-| piBrain | `260624v1` | [block · project](pibrain/260624v1/README.md) | [문서](https://themakerrobot.github.io/openpibo-guide/pibrain/260624v1/index.html) |
+| piBo | `260624v1` | [python · block · project · 교안](pibo/260624v1/README.md) | [문서](https://themakerrobot.github.io/openpibo-guide/pibo/260624v1/index.html) |
+| PiBrain | `260624v1` | [block · project](pibrain/260624v1/README.md) | [문서](https://themakerrobot.github.io/openpibo-guide/pibrain/260624v1/index.html) |
 
 ## 구조
 
